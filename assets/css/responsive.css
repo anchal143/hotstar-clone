@@ -1,0 +1,438 @@
+/* mobile responsive css */
+
+@media(max-width:767px) {
+    .anc_mobCntDiv {
+        /* padding: 0 7px; */
+        margin-top: 0;
+        background: #0b0a0ae0;
+    }
+    .MobancContent {
+        padding: 0 7px;
+        margin-top: 30px;
+    }
+    main.anc_main {
+        display: none;
+    }
+    main.anc_Mobmain {
+        display: block;
+    }
+    /* login banner */
+    .anc_MobLogSec {
+        background-image: linear-gradient(360deg, rgb(15 16 20), rgb(15 17 21 / 50%)), url(../images/mobilebg.webp);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 650px;
+        color: #fff;
+    }
+    .formSec {
+        padding: 15px;
+        display: flex;
+        flex-direction: column;
+        padding-top: 15rem;
+        justify-content: flex-end;
+        position: relative;
+    }
+    .mobLOgo img {
+        width: 100px;
+    }
+    .formDiv {
+        padding-top: 45px;
+    }
+    .label label {
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 24px;
+        letter-spacing: normal;
+    }
+    .inputText {
+        display: flex;
+        margin: 15px 0;
+    }
+    .inputText input[type="text"]:nth-child(1) {
+        width: 35px !important;
+        margin-right: 15px;
+    }
+    .inputText input[type="text"] {
+        background-color: transparent;
+        border-width: 0;
+        font-size: 14px;
+        color: #e1e6f0;
+        font-weight: 500;
+        line-height: 20px;
+        outline: 2px solid transparent;
+        outline-offset: 2px;
+        padding: 12px 8px;
+        transform: translateZ(0);
+        width: 100%;
+        align-items: center;
+        border: 1px solid;
+        border-color: #4b5166;
+        border-radius: 8px;
+        border-width: 1px;
+        cursor: pointer;
+    }
+    .termCndtion span {
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 16px;
+        color: #707a94;
+    }
+    .termCndtion span a {
+        font-size: 12px;
+        font-weight: 600;
+        letter-spacing: .2px;
+        line-height: 12px;
+        color: #8f98b2;
+    }
+    .loginPrbl {
+        align-items: center;
+        display: flex;
+        justify-content: flex-start;
+        position: relative;
+        top: 4rem;
+    }
+    .loginPrbl span {
+        color: #8f98b2;
+        font-size: 14px;
+        font-weight: normal;
+        line-height: 18px;
+    }
+    .loginPrbl span a {
+        color: #3586f0;
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 16px;
+        text-decoration: none;
+        white-space: nowrap;
+    }
+    /* mobile banner css */
+    .MobBanner_swiper {
+        position: relative;
+    }
+    .MobBanner_swiper .swiper-wrapper {
+        height: 300px;
+    }
+    .mobImgDiv {
+        position: relative;
+    }
+    .mobImgDiv::after {
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(360deg, #0c0b0b, transparent);
+    }
+    .MobBanner_swiper img.mobBnrImg {
+        width: 100%;
+        height: 100%;
+    }
+    .swiper-pagination {
+        position: absolute;
+        text-align: center;
+        transition: .3s opacity;
+        transform: translate3d(0, 0, 0);
+        z-index: 10;
+        bottom: -22px !important;
+    }
+    .swiper-pagination-bullet {
+        width: 6px;
+        height: 6px;
+        display: inline-block;
+        border-radius: 50%;
+        background: #fff;
+        opacity: 0.4;
+    }
+    .swiper-pagination-bullet-active {
+        opacity: 1 !important;
+        background: #fff !important;
+        width: 8px !important;
+        height: 8px !important;
+    }
+    .mobMainSpan {
+        margin-top: 0;
+        margin-bottom: 2px;
+        padding: 10px 0;
+        font-size: 12px;
+        color: #e1e1e1;
+        letter-spacing: 1px;
+        font-weight: 500;
+    }
+    .mobMainSpan .mains {
+        margin-right: 6px;
+    }
+    .mobMainSpan .mains .dot {
+        margin-right: 6px;
+    }
+    .myMobBnrCnt {
+        position: absolute;
+        top: 152px;
+        width: 100%;
+        z-index: 9;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background: linear-gradient(1deg, #0c0b0b, transparent);
+    }
+    .myMobBnrCnt .mBlogo img {
+        width: 170px;
+    }
+    .bnr_watch_now {
+        background-color: hsl(0deg 0% 16.28%);
+        align-items: center;
+        border-radius: 6px;
+        width: 130px;
+        font-size: 13px;
+        font-weight: 600;
+        color: white;
+        border: none;
+        display: flex;
+        flex-direction: row;
+        margin-right: 15px;
+        overflow: hidden;
+        padding: 10px 10px;
+        position: relative;
+        transition: all .3s ease-in-out;
+        cursor: pointer;
+        justify-content: center;
+    }
+    .bnr_watch_now span {
+        color: #6bc5ff;
+        margin-left: 5px;
+        font-weight: 700;
+    }
+    .bnr_wishlist {
+        background-color: hsl(0deg 0% 16.28%);
+        align-items: center;
+        border-radius: 6px;
+        width: 40px;
+        font-size: 13px;
+        font-weight: 600;
+        color: white;
+        border: none;
+        display: flex;
+        flex-direction: row;
+        overflow: hidden;
+        padding: 10px 10px;
+        position: relative;
+        transition: all .3s ease-in-out;
+        cursor: pointer;
+        justify-content: center;
+    }
+    /* mobile main content css */
+    .swiper-horizontal {
+        touch-action: pan-y;
+        overflow-y: hidden;
+        overflow-x: hidden;
+    }
+    .productMainDiv {
+        position: relative;
+        width: 100%;
+        bottom: 0;
+        padding-bottom: 0;
+        /* background-image: linear-gradient(to right, #0f1014, transparent); */
+    }
+    img.anc_img {
+        width: 100px;
+        height: 130px;
+        border-radius: 6px;
+    }
+    .swiper-wrapper {
+        position: relative;
+        width: 100%;
+        height: 130px;
+    }
+    .product_swiper .swiper-slide {
+        margin: 0 10px 0 0;
+        width: 100px !important;
+        /* height: 230px !important; */
+    }
+    .main_title h4 {
+        color: #e1e6f0;
+        font-size: 14px;
+        font-weight: 600;
+        letter-spacing: 0px;
+        line-height: 28px;
+        margin: 0;
+    }
+    .bestin_sports .swiper-wrapper {
+        position: relative;
+        width: 100%;
+        height: 140px;
+    }
+    .bestin_sports .swiper-slide {
+        margin-right: 10px;
+        width: 150px !important;
+        height: 100px;
+    }
+    .bestin_sports .imgBox {
+        width: 150px;
+        height: 100px;
+    }
+    .bestin_sports img.anc_img {
+        width: 150px;
+        height: 100px;
+    }
+    .bestin_sports .imgBox p {
+        margin: 0 0 0 0;
+        font-size: 12px;
+        line-height: 17px;
+        font-weight: 400;
+        color: #b4b4b4;
+    }
+    .videocontrol {
+        color: white;
+        width: 140px;
+        position: absolute;
+        bottom: 0;
+        padding: 7px;
+        background-image: linear-gradient(#fdfdfd00, #0f10148c);
+        left: 0px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .videocontrol .vtime,
+    .videocontrol .yicon {
+        font-size: 12px;
+        letter-spacing: 1px;
+    }
+    .top10_india .imgBox {
+        width: 100px;
+        height: 130px;
+        cursor: pointer;
+    }
+    .bestin_sports.productMainDiv {
+        margin-bottom: 0;
+    }
+    .top10_india .product_swiper {
+        margin-left: 0;
+    }
+    .top10_india .product_swiper .swiper-slide {
+        width: 100px !important;
+        height: 130px !important;
+        margin-right: 30px;
+    }
+    .top10_india .product_swiper .swiper-slide img.anc_img {
+        width: 100px;
+        height: 130px;
+        border-radius: 6px;
+    }
+    .top10_india .top10 {
+        font-size: 75px;
+        color: #d7d9dd;
+        font-weight: 700;
+        position: absolute;
+        bottom: -16px;
+        left: -12px;
+        z-index: 99;
+    }
+    .p_languages .swiper-wrapper,
+    .p_genres .swiper-wrapper {
+        height: 70px;
+    }
+    .p_languages .swiper-slide,
+    .p_genres .swiper-slide {
+        width: 103px !important;
+        height: 60px !important;
+    }
+    .p_languages img.anc_img,
+    .p_genres img.anc_img {
+        width: 103px;
+        height: 60px;
+    }
+    /* mobile menu css */
+    .bottomMenu {
+        position: fixed;
+        background: #0c0c0c;
+        padding: 0;
+        bottom: 0;
+        width: 100%;
+        z-index: 999;
+        left: 0;
+        right: 0;
+        border-top: 1px solid #1a1a1a;
+    }
+    .mainMdiv {
+        /* display: flex; */
+        /* align-items: center; */
+        /* justify-content: space-between; */
+        width: 100%;
+        text-align: center;
+    }
+    .mainMdiv .mobMenu {
+        display: inline-block;
+        padding: 8px 0;
+        width: 19%;
+        /* border: 1px solid white; */
+    }
+    .mob_icon {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        font-size: 14px;
+        align-items: center;
+        color: #818181;
+    }
+    .mob_icon.active {
+        color: #fff;
+    }
+    .mob_icon i {
+        margin-bottom: 8px;
+    }
+    .mob_icon .mob_text {
+        font-size: 12px;
+    }
+    /* footer css */
+    footer.myFooter {
+        padding: 30px 15px 0;
+        border-top: 1px solid #4b5166;
+        margin-top: 25px;
+    }
+    .ftext ul li a,
+    .mainFdiv .fbox ul li a {
+        color: #707a94;
+        font-weight: 600;
+        letter-spacing: 0px;
+        font-size: 12px;
+    }
+    .mainFdiv {
+        display: flex;
+        flex-direction: column;
+    }
+    .mainFdiv .fbox ul li {
+        line-height: 30px;
+        display: inline-block;
+        width: 32%;
+        margin-bottom: 20px;
+    }
+    .bmaindiv {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 40px;
+        flex-direction: column;
+        margin-bottom: 25px;
+    }
+    .bmaindiv .ftext {
+        margin-bottom: 30px;
+    }
+    .ftext p {
+        margin: 0;
+        color: #707a94;
+        font-size: 12px;
+        font-weight: 600;
+    }
+    .mainFdiv .fbox h4 {
+        font-weight: 600;
+        font-size: 14px;
+        margin: 0 0 10px 0;
+    }
+    .bottomFdiv {
+        margin-right: 0;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {}
+
+@media only screen and (min-width: 992px) and (max-width: 1300px) {}
