@@ -18,7 +18,7 @@
     }
     /* login banner */
     .anc_MobLogSec {
-        background-image: linear-gradient(360deg, rgb(15 16 20), rgb(15 17 21 / 50%)), url(../assets/images/mobilebg.webp);
+        background-image: linear-gradient(360deg, rgb(15 16 20), rgb(15 17 21 / 50%)), url(../images/mobilebg.webp);
         background-repeat: no-repeat;
         background-size: cover;
         width: 100%;
