@@ -64,7 +64,7 @@ var smallSwiper = new Swiper(".smallSwiper", {
 
 // latest realease slider
 var product_swiper = new Swiper(".product_swiper", {
-    loop: false,
+    loop: true,
     slidesPerView: 7,
     keyboard: {
         enabled: true,
@@ -73,7 +73,7 @@ var product_swiper = new Swiper(".product_swiper", {
 });
 
 var bestin_swiper = new Swiper(".bestin_swiper", {
-    loop: false,
+    loop: true,
     slidesPerView: 5,
     keyboard: {
         enabled: true,
