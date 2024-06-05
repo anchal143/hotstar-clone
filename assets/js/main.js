@@ -25,8 +25,20 @@ $(document).ready(function() {
     //     alert(myHoverCls);
     // })
 
-})
-
+    // for mobile view banner
+    // Swiper: Slider
+    new Swiper('.swiper_Mob', {
+        loop: true,
+        autoplay: true,
+        nextButton: '.swiper-button-next',
+        prevButton: '.swiper-button-prev',
+        slidesPerView: 1,
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+        },
+    });
+});
 
 // small slider on banner js
 var swiper = new Swiper(".swiper", {
@@ -47,21 +59,7 @@ var swiper = new Swiper(".swiper", {
     }
 });
 
-// for mobile view banner
-$(document).ready(function() {
-    // Swiper: Slider
-    new Swiper('.swiper_Mob', {
-        loop: true,
-        autoplay: true,
-        nextButton: '.swiper-button-next',
-        prevButton: '.swiper-button-prev',
-        slidesPerView: 1,
-        pagination: {
-            el: '.swiper-pagination',
-            clickable: true,
-        },
-    });
-});
+
 
 
 // latest realease slider
