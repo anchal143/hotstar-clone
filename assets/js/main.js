@@ -41,7 +41,7 @@ $(document).ready(function() {
 });
 
 // small slider on banner js
-var swiper = new Swiper(".swiper", {
+var smallSwiper = new Swiper(".smallSwiper", {
     loop: true,
     slidesPerView: 3,
     effect: "coverflow",
